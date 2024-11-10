@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_emilian_opamps_mix_3v3
   CLASS BLOCK ;
   FOREIGN tt_um_emilian_opamps_mix_3v3 ;
@@ -437,17 +441,17 @@ MACRO tt_um_emilian_opamps_mix_3v3
   END VAPWR
   OBS
       LAYER nwell ;
-        RECT 67.200 17.200 135.070 69.190 ;
+        RECT 36.420 13.540 131.470 67.590 ;
       LAYER li1 ;
-        RECT 67.200 11.200 137.250 73.000 ;
+        RECT 36.600 11.200 133.650 71.400 ;
       LAYER met1 ;
-        RECT 67.150 11.200 137.250 73.000 ;
+        RECT 32.350 8.400 133.650 71.400 ;
       LAYER met2 ;
-        RECT 67.200 11.150 137.350 68.400 ;
+        RECT 32.400 9.150 133.750 66.800 ;
       LAYER met3 ;
-        RECT 1.600 8.000 92.050 35.225 ;
+        RECT 1.150 8.000 92.050 35.225 ;
       LAYER met4 ;
-        RECT 9.400 7.995 136.000 35.205 ;
+        RECT 9.400 7.995 133.600 35.205 ;
   END
 END tt_um_emilian_opamps_mix_3v3
 END LIBRARY
