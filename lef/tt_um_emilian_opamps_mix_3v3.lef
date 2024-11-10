@@ -30,6 +30,7 @@ MACRO tt_um_emilian_opamps_mix_3v3
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 8.120000 ;
     PORT
       LAYER met4 ;
         RECT 136.170 0.000 137.070 1.000 ;
@@ -443,11 +444,19 @@ MACRO tt_um_emilian_opamps_mix_3v3
       LAYER met1 ;
         RECT 32.350 8.400 92.050 35.200 ;
       LAYER met2 ;
-        RECT 32.400 9.150 92.000 35.250 ;
+        RECT 32.400 9.150 127.700 35.250 ;
       LAYER met3 ;
-        RECT 1.150 8.000 92.050 35.225 ;
+        RECT 1.150 8.000 126.600 35.225 ;
       LAYER met4 ;
-        RECT 9.400 7.995 133.600 35.205 ;
+        RECT 9.400 4.600 137.070 35.205 ;
+        RECT 9.000 1.400 137.070 4.600 ;
+        RECT 9.000 1.000 19.850 1.400 ;
+        RECT 21.550 1.000 39.170 1.400 ;
+        RECT 40.870 1.000 58.490 1.400 ;
+        RECT 60.190 1.000 77.810 1.400 ;
+        RECT 79.510 1.000 97.130 1.400 ;
+        RECT 98.830 1.000 116.450 1.400 ;
+        RECT 118.150 1.000 135.770 1.400 ;
   END
 END tt_um_emilian_opamps_mix_3v3
 END LIBRARY
